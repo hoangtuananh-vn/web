@@ -1,153 +1,189 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoàng Tuấn Anh | Trang Cá Nhân</title>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Be Vietnam Pro', sans-serif;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hoàng Tuấn Anh | Doanh nhân công nghệ & Marketing</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-        body {
-            background: linear-gradient(135deg, #0f172a, #1e293b);
-            color: white;
-        }
-
-        header {
-            text-align: center;
-            padding: 60px 20px;
-        }
-
-        .avatar {
-            width: 140px;
-            height: 140px;
-            border-radius: 50%;
-            border: 4px solid #38bdf8;
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
-
-        h1 {
-            font-size: 32px;
-            margin-bottom: 10px;
-        }
-
-        .tagline {
-            color: #94a3b8;
-            font-size: 18px;
-        }
-
-        section {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 30px;
-            background: rgba(255,255,255,0.05);
-            border-radius: 16px;
-            backdrop-filter: blur(10px);
-        }
-
-        h2 {
-            margin-bottom: 15px;
-            color: #38bdf8;
-        }
-
-        p {
-            line-height: 1.7;
-            margin-bottom: 15px;
-        }
-
-        .projects {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-
-        .card {
-            background: rgba(255,255,255,0.08);
-            padding: 20px;
-            border-radius: 12px;
-            transition: 0.3s;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            background: rgba(255,255,255,0.15);
-        }
-
-        .contact a {
-            display: inline-block;
-            margin: 10px 15px 0 0;
-            padding: 10px 18px;
-            background: #38bdf8;
-            color: #0f172a;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: 600;
-        }
-
-        footer {
-            text-align: center;
-            padding: 30px;
-            color: #94a3b8;
-            font-size: 14px;
-        }
-    </style>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif;}
+body{background:#0f1115;color:#e5e7eb;}
+.container{max-width:1200px;margin:auto;padding:0 25px;}
+section{padding:80px 0;border-bottom:1px solid #1f2937;}
+h1,h2,h3{color:#fff;}
+p{color:#9ca3af;line-height:1.7;}
+.hero{display:flex;flex-wrap:wrap;align-items:center;gap:40px;padding:120px 0;}
+.avatar{
+width:220px;
+height:220px;
+border-radius:12px;
+object-fit:cover;
+border:2px solid #00c3ff;
+}
+.hero-text{flex:1;}
+.hero h1{font-size:44px;font-weight:800;margin-bottom:20px;}
+.hero span{color:#00c3ff;}
+.btn{
+display:inline-block;
+padding:12px 24px;
+border:1px solid #00c3ff;
+color:#00c3ff;
+text-decoration:none;
+border-radius:6px;
+margin-top:20px;
+transition:0.3s;
+}
+.btn:hover{background:#00c3ff;color:#000;}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+margin-top:40px;
+}
+.card{
+background:#161b22;
+padding:25px;
+border-radius:8px;
+border:1px solid #1f2937;
+transition:0.3s;
+}
+.card:hover{
+border-color:#00c3ff;
+transform:translateY(-4px);
+}
+.price{
+color:#00ffae;
+font-weight:700;
+margin-top:10px;
+}
+.section-title{
+font-size:30px;
+margin-bottom:20px;
+}
+footer{
+padding:40px 0;
+text-align:center;
+color:#6b7280;
+}
+</style>
 </head>
 <body>
 
-<header>
-    <!-- Thay link ảnh của bạn vào src -->
-    <img src="https://via.placeholder.com/150" alt="Avatar" class="avatar">
-    <h1>Hoàng Tuấn Anh</h1>
-    <div class="tagline">Admin hệ thống hơn 100 nhóm Facebook tại Phan Thiết</div>
-</header>
+<div class="container">
 
-<section>
-    <h2>Giới thiệu</h2>
-    <p>
-        Tôi là Hoàng Tuấn Anh – người xây dựng và quản trị hệ sinh thái cộng đồng lớn mạnh tại Phan Thiết với hơn 1 triệu thành viên.
-    </p>
-    <p>
-        Chuyên về: Facebook Marketing, xây dựng hệ sinh thái truyền thông, quảng bá thương hiệu địa phương, phát triển cộng đồng online và chiến lược Digital Marketing.
-    </p>
+<section class="hero">
+<img src="avatar.jpg" alt="Hoàng Tuấn Anh" class="avatar">
+<div class="hero-text">
+<h1>Hoàng Tuấn Anh<br>
+<span>Tech Builder • Marketing Operator • Community Leader</span></h1>
+<p>
+Thiết kế website, app mobile, blockchain, token, hệ thống tự động.  
+Xây dựng thương hiệu và điều hành hệ sinh thái hơn 100 nhóm cộng đồng Phan Thiết.
+</p>
+<a href="tel:0971492222" class="btn">Liên hệ ngay</a>
+</div>
 </section>
 
 <section>
-    <h2>Dự án nổi bật</h2>
-    <div class="projects">
-        <div class="card">
-            <h3>Hệ thống 100+ nhóm Facebook</h3>
-            <p>Hơn 1 triệu thành viên, 60.000+ bài đăng mỗi ngày.</p>
-        </div>
+<h2 class="section-title">Dịch vụ cung cấp</h2>
 
-        <div class="card">
-            <h3>Website & Nền tảng Online</h3>
-            <p>Phát triển website, landing page, hệ thống marketing tự động.</p>
-        </div>
+<div class="grid">
 
-        <div class="card">
-            <h3>Chiến dịch Marketing địa phương</h3>
-            <p>Tối ưu quảng bá thương hiệu tại Phan Thiết – Bình Thuận.</p>
-        </div>
-    </div>
+<div class="card">
+<h3>Đăng ký duyệt bài tự động</h3>
+<p>Áp dụng hệ thống nhóm Phan Thiết.</p>
+<div class="price">1.000.000đ / năm</div>
+</div>
+
+<div class="card">
+<h3>Thiết kế Website</h3>
+<div class="price">3.500.000đ</div>
+</div>
+
+<div class="card">
+<h3>Xây dựng Fanpage</h3>
+<div class="price">1.500.000đ</div>
+</div>
+
+<div class="card">
+<h3>Tạo Check-in Page</h3>
+<div class="price">1.500.000đ</div>
+</div>
+
+<div class="card">
+<h3>Mở khóa Facebook</h3>
+<div class="price">2.000.000đ</div>
+</div>
+
+<div class="card">
+<h3>Lấy lại Facebook bị hack</h3>
+<div class="price">1.000.000đ</div>
+</div>
+
+<div class="card">
+<h3>Thiết kế App Mobile</h3>
+<div class="price">50.000.000đ</div>
+</div>
+
+<div class="card">
+<h3>Tạo Blockchain riêng</h3>
+<div class="price">500.000.000đ</div>
+</div>
+
+<div class="card">
+<h3>Tạo Token Solana (Full Metadata)</h3>
+<div class="price">5.000.000đ</div>
+</div>
+
+<div class="card">
+<h3>Review cửa hàng / shop</h3>
+<div class="price">1.000.000đ</div>
+</div>
+
+<div class="card">
+<h3>Ghim bài lên 60 nhóm</h3>
+<div class="price">1.000.000đ / tháng</div>
+</div>
+
+<div class="card">
+<h3>Đăng bài tự động 300 bài / tháng</h3>
+<p>Phủ 60 nhóm Phan Thiết</p>
+<div class="price">1.500.000đ / tháng</div>
+</div>
+
+<div class="card">
+<h3>Xây dựng thương hiệu cá nhân / doanh nghiệp</h3>
+<div class="price">20.000.000đ</div>
+</div>
+
+<div class="card">
+<h3>Xây dựng hệ sinh thái nhóm cơ bản</h3>
+<div class="price">50.000.000đ</div>
+</div>
+
+<div class="card">
+<h3>Xây dựng hệ sinh thái nhóm cao cấp</h3>
+<div class="price">200.000.000đ</div>
+</div>
+
+<div class="card">
+<h3>Canva Pro</h3>
+<div class="price">50.000đ / năm</div>
+</div>
+
+<div class="card">
+<h3>Khóa học YouTube</h3>
+<div class="price">Miễn phí</div>
+</div>
+
+</div>
 </section>
 
-<section>
-    <h2>Liên hệ</h2>
-    <div class="contact">
-        <a href="tel:0971492222">📞 0971 492 222</a>
-        <a href="https://facebook.com/HOANGTUANANHADMIN" target="_blank">Facebook</a>
-        <a href="https://hoangtuananh.vn" target="_blank">Website</a>
-    </div>
-</section>
+</div>
 
 <footer>
-    © 2026 Hoàng Tuấn Anh. All Rights Reserved.
+© 2026 Hoàng Tuấn Anh • Hệ sinh thái Digital & Công nghệ
 </footer>
 
 </body>
